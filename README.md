@@ -4,7 +4,8 @@ An introduction to philosophy with the perspective of history, which is to serve
 ## 中文介绍
 作为哲学的导读，这个repo的作者希望它能帮读者完成从小白到有所认识的过渡。和各位读者一样，作者也是小白，期望通过对于阅读和反思来达到某种认识阶段。——240102
 ### 模块介绍
-- 首个文件夹是预期采用的内容模板，会更新。
+首个文件夹是预期采用的内容模板。
+
 - 按照阅读顺序安排，自然地将阅读材料和感想分到各个文件夹，考虑拆分书籍并且划分到各个文件夹。
 - 暂时不采用gitbook、blog等形式，注重自己的阅读和写作。
 - 作为公共repo可以考虑开放留言板(comment)，不过要增加审查时间。
@@ -18,8 +19,39 @@ An introduction to philosophy with the perspective of history, which is to serve
 针对这些材料进行组织，发表**自己的观点**，可作总结或评价。
 #### comment
 其余人的评论。
+
 ### 任务介绍
 主要是完成哲学史阅读，便于理解所谓“黑话”，尽量先从正面了解各家批判对象。
+
+### 格式化提交
+
+```
+<type>(<scope>): <subject>
+```
+
+这里为了方便仅采用Header的形式提交。Header 部分只有一行，包括三个字段：`type`（必需）、`scope`（可选）和`subject`（必需）。
+
+**（1）type**
+
+`type`用于说明 commit 的类别，只允许使用下面几个标识(与程序员常用的7个不同，这里顺应本repo做出调整)。
+
+> *   sect：新部分（section）
+> *   modi：内容修改（modify） ,包含格式变动
+> *   docs：添加文档（documentation）
+> *   refactor：重构（往往出现在思路变化时）
+> *   cen：审查（censor），针对内容的和谐处理
+
+**（2）scope**
+
+`scope`用于说明 commit 影响的范围，比如文件夹类别和index等等，视项目不同而不同。
+
+**（3）subject**
+
+`subject`是 commit 目的的简短描述，不超过 50 个字符。
+
+> *   以动词开头，使用第一人称现在时
+> *   第一个字母小写
+> *   结尾不加句号（`.`）
 
 ### 声明
 
